@@ -4,14 +4,14 @@
   box-sizing: border-box;
   height: 100%;
  font-family: Verdana, Geneva, Tahoma, sans-serif;
- color: whitesmoke;
+ color: black;
 }
 html, body {
   height: 100%;
   width:100%;
 }
 body {
-  background-color: #1f1752;
+  background-color: #fffd7b;
   background-repeat: repeat;
   max-width: 100%;
   height: auto;
@@ -22,7 +22,7 @@ body {
 }
 
 .navbar a {
-  color: whitesmoke;
+  color: black;
   font-size: 18px;
 }
 #navbarNav {
