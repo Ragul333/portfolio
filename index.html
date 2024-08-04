@@ -57,9 +57,46 @@
       <a class="btn hero__btn" href="">Reach out</a>
     </section>
     <section class="about container section">
-
+      <div class="about__content">
+        <h2 class="about__title">About</h2>
+        <p class="about_desc">I am a Full Stack Developer with over 2.5 years of experience in developing user-friendly
+          interfaces using
+          <a>React.js and Node.js</a>. I have collaborated with cross-functional teams to ensure seamless
+          integration of front-end and back-end features. Skilled in UI development, HTML, CSS, and Material UI, I have
+          worked on projects implementing lazy loading, debouncing functionality, and data fetching optimization.
+        </p>
+        <hr class="about__hr" />
+        <h2 class="about__subtitle">Technologies</h2>
+        <div class="about__container">
+          <ul class="about__skills">
+            <li class="about__list">React.js</li>
+            <li class="about__list">Node.js</li>
+            <li class="about__list">Express.js</li>
+          </ul>
+          <ul class="about__skills">
+            <li class="about__list">MongoDB</li>
+            <li class="about__list">SQL</li>
+            <li class="about__list">Javascript</li>
+          </ul>
+        </div>
+      </div>
+      <div class="about__img_warpper">
+        <img class="about__img" src="./public/profile.jpg" alt="about">
+      </div>
     </section>
-    <!-- <section></section> -->
+    <section class="featured container section">
+      <h3 class="featured__title">Featured project</h3>
+      <h2 class="featured__subtitle">Slaying the dragon</h2>
+      <a class="featured__link">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+          className="size-6">
+          <path strokeLinecap="round" strokeLinejoin="round"
+            d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+        </svg>
+
+      </a>
+      <p class="featured__desc"></p>
+    </section>
     <!-- <section></section> -->
   </main>
   <!-- <footer></footer> -->
@@ -67,7 +104,7 @@
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script>
     new Typewriter('#typewriter', {
-      strings: [`FULL - STACK WEB <br> DEVELOPER.`],
+      strings: ['FULL - STACK DEV.'],
       autoStart: true,
       loop: true
     });

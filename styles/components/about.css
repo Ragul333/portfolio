@@ -1,0 +1,145 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.about__title,
+.about__subtitle {
+    font-size: var(--sizes-2xl);
+    color: var(--clr-light);
+}
+
+.about_desc {
+    font-size: var(--sizes-sm);
+    color: var(--clr-slate400);
+    max-width: 60ch;
+}
+
+.about__hr {
+    color: var(--clr-slate800);
+}
+
+.about__container {
+    display: flex;
+}
+
+.about__skills {
+    display: flex;
+    flex-direction: column;
+    list-style-type: '\1F44D';
+    padding-left: 1rem;
+    flex: 1;
+    gap: 1rem;
+}
+
+.about__list {
+    font-size: var(--sizes-sm);
+    color: var(--clr-slate400);
+}
+
+.about__list::before {
+    content: '';
+    margin-left: 0.2rem;
+}
+.about__img_warpper {
+    margin: 0 auto;
+}
+.about__img {
+    width: 28.675rem;
+}
+
+/* xs */
+@media (min-width: 475px) {
+    .about {
+        gap: 1.5rem;
+    }
+
+    .about__content {
+        gap: 1.5rem;
+    }
+
+    .about__title,
+    .about__subtitle {
+        font-size: var(--sizes-3xl);
+    }
+
+    .about_desc {
+        font-size: var(--sizes-base);
+    }
+
+    .about__list {
+        font-size: var(--sizes-base);
+    }
+}
+
+/* sm */
+/* @media (min-width: 640px){
+    
+} */
+
+/* md */
+/* @media (min-width: 768px){
+    
+} */
+
+/* lg */
+@media (min-width: 1024px) {
+    .about {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about__content {
+        gap: 2rem;
+    }
+
+    .about__title,
+    .about__subtitle {
+        font-size: var(--sizes-4xl);
+    }
+
+    .about_desc {
+        font-size: var(--sizes-lg);
+    }
+
+    .about__list {
+        font-size: var(--sizes-lg);
+    }
+}
+
+/* xl */
+@media (min-width: 1280px){
+    .about {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about__content {
+        gap: 2.5rem;
+    }
+
+    .about__title,
+    .about__subtitle {
+        font-size: var(--sizes-5xl);
+    }
+
+    .about_desc {
+        font-size: var(--sizes-xl);
+    }
+
+    .about__list {
+        font-size: var(--sizes-xl);
+    }
+}
+
+/* 2xl */
+@media (min-width: 1536px){
+    
+}
