@@ -1,0 +1,32 @@
+.contact {
+    text-align: center;
+}
+
+.contact__title {
+    font-size: var(--sizes-3xl);
+    color: var(--clr-light);
+}
+.contact__desc{
+    font-size: var(--sizes-sm);
+    color: var(--clr-slate400);
+    max-width: 60ch;
+    margin: 1rem auto;
+}
+
+/* xs */
+/* @media (min-width: 475px){} */
+
+/* sm */
+/* @media (min-width: 640px){} */
+
+/* md */
+/* @media (min-width: 768px){} */
+
+/* lg */
+/* @media (min-width: 1024px){} */
+
+/* xl */
+/* @media (min-width: 1280px){} */
+
+/* 2xl */
+/* @media (min-width: 1536px){} */

@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+}
+
+.footer__title {
+    font-size: var(--sizes-xs);
+    color: var(--clr-slate600);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    user-select: none;
+}

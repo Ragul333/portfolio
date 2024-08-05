@@ -67,7 +67,7 @@
 
     .about__title,
     .about__subtitle {
-        font-size: var(--sizes-3xl);
+        font-size: var(--sizes-2xl);
     }
 
     .about_desc {

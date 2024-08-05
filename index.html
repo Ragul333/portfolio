@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/vite.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <title>Portfolio</title>
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
 </head>
 
@@ -86,20 +86,99 @@
     </section>
     <section class="featured container section">
       <h3 class="featured__title">Featured project</h3>
-      <h2 class="featured__subtitle">Slaying the dragon</h2>
-      <a class="featured__link">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
-          className="size-6">
-          <path strokeLinecap="round" strokeLinejoin="round"
-            d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
-        </svg>
-
-      </a>
-      <p class="featured__desc"></p>
+      <div class="featured__wrapper">
+        <h2 class="featured__subtitle">Max Brothers Design</h2>
+        <a class="featured__link" href="https://maxbrothers.netlify.app" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
+            stroke="currentColor" className="size-6">
+            <path strokeLinecap="round" strokeLinejoin="round"
+              d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+          </svg>
+        </a>
+      </div>
+      <p class="featured__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil neque debitis sapiente
+        voluptatibus totam ab quasi architecto, eaque magni fugiat et non eveniet consequuntur aliquam, explicabo
+        corrupti sit? Architecto, error.</p>
+      <div>
+        <h3 class="featured__label">Tech Stacks</h3>
+        <ul class="featured__tech-stacks">
+          <li class="featured__info">React.js</li>
+          <li class="featured__info">Node.js</li>
+          <li class="featured__info">MongoDB</li>
+          <li class="featured__info">Express.js</li>
+          <li class="featured__info">Bootstrap</li>
+        </ul>
+      </div>
+      <div class="featured__img-wrapper">
+        <div class="featured__img">
+          <img src="./public/fp-1.png" />
+        </div>
+        <div class="featured__img">
+          <img src="./public/fp-2.png" />
+        </div>
+        <div class="featured__img">
+          <img src="./public/fp-3.png" />
+        </div>
+        <div class="featured__img">
+          <img src="./public/fp-4.png" />
+        </div>
+      </div>
     </section>
-    <!-- <section></section> -->
+    <section class="work container section">
+      <h2 class="work__title">Projects</h2>
+      <p class="work__desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dignissimos itaque
+        mollitia, illo voluptatum, quo reiciendis consectetur sunt, facere natus optio sed voluptates? Dicta facilis
+        commodi excepturi? Temporibus, ea debitis.</p>
+      <div class="projects">
+        <h3 class="work__project-title">Github Clone</h3>
+        <div class="work__wrapper image1">
+          <img src="./public/work-1.png" />
+        </div>
+        <div class="work__project-wrapper content1">
+          <h3 class="work__project-title">Github Clone</h3>
+          <p class="work__project-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dicta
+            doloremque,
+            doloribus vel distinctio
+            explicabo minus? Dolor cupiditate accusamus consequatur culpa repellat, explicabo adipisci asperiores
+            distinctio ea autem perferendis provident.</p>
+          <a class="work__project-btn btn">Website</a>
+        </div>
+        <h3 class="work__project-title">Github Clone</h3>
+        <div class="work__wrapper work__wrapper-1 image2">
+          <img src="./public/work-1.png" />
+        </div>
+        <div class="work__project-wrapper-1 content2">
+          <p class="work__project-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dicta
+            doloremque,
+            doloribus vel distinctio
+            explicabo minus? Dolor cupiditate accusamus consequatur culpa repellat, explicabo adipisci asperiores
+            distinctio ea autem perferendis provident.</p>
+          <a class="work__project-btn btn">Website</a>
+        </div>
+        <h3 class="work__project-title">Github Clone</h3>
+        <div class="work__wrapper work__wrapper-2 image3">
+          <img src="./public/work-1.png" />
+        </div>
+        <div class="work__project-wrapper-2 content3">
+          <p class="work__project-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dicta
+            doloremque,
+            doloribus vel distinctio
+            explicabo minus? Dolor cupiditate accusamus consequatur culpa repellat, explicabo adipisci asperiores
+            distinctio ea autem perferendis provident.</p>
+          <a class="work__project-btn btn">Website</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact container section">
+      <h2 class="contact__title">Get in contact</h2>
+      <p class="contact__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam adipisci iusto odio expedita assumenda nemo
+        sequi quia rem, cum suscipit ipsa nam a deleniti corrupti odit, commodi doloremque dolorem perspiciatis!</p>
+      <a class="contact__btn btn" href="mailto:raguls786@gmail.com" target="_blank">Reach out</a>
+    </section>
   </main>
-  <!-- <footer></footer> -->
+  <footer class="footer container section">
+    <h3 class="footer__title">~ Ragul ~</h3>
+  </footer>
   <script type="module" src="./src/main.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script>
